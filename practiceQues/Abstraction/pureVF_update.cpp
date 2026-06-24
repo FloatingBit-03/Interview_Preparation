@@ -82,5 +82,9 @@ int main(){
     std::cout<<"diameter Message"<<"\n";
     mptr2->displayMessage();
 
+    // deleting all the dynamic resources
+    delete mptr1;
+    delete mptr2;
+    
     return 0;
 }
